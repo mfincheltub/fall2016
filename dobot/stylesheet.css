@@ -43,6 +43,7 @@ a {
 
 button {
 	color: #ffffff;
+	text-transform: uppercase;
 	font-family: LFT Etica;
 	font-style: semibold;
 	font-size: 14 px
