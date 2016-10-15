@@ -42,12 +42,12 @@ a {
 }
 
 button {
+	border: none;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-style: SemiBold;
 	font-family: LFT Etica;
 	font-size: 14 px
-	border: none;
 	text-align: center;
 	background-color: #01bfc1;
 	padding: 15px 32px 
