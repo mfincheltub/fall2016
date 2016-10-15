@@ -44,8 +44,8 @@ a {
 button {
 	color: #ffffff;
 	text-transform: uppercase;
+	font-style: SemiBold;
 	font-family: LFT Etica;
-	font-style: semibold;
 	font-size: 14 px
 	border: none;
 	text-align: center;
