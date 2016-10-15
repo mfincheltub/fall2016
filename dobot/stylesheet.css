@@ -40,14 +40,18 @@ a {
 	font-family: LFTEtica Book;
 	font-style: regular;
 	font-size: 16px;
+	text-decoration: none;
 }
 
 button {
 	border-radius: 0;
 	text-align: center;
-	text-transform: capitalize;
+	text-decoration: capitalize;
 	color: #ffffff;
 	background-color: #01bfc1;
 }
 
-
+img {
+	float: right;
+	padding: 10px;
+}
