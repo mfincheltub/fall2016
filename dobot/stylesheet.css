@@ -1,7 +1,7 @@
 body {
 	background-color: #1a2325;
 	padding: 80px;
-	font-family: LFTEtica Book;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 	color: #abadad;
@@ -9,35 +9,35 @@ body {
 
 h1 {
 	color: #ffffff;
-	font-family: QuatroSlab;
+	font-family: Quatro Slab;
 	font-style: regular;
 	font-size: 36px;
 }
 
 h2 {
 	color: #555a5b;
-	font-family: LFTEtica Book;
+	font-family: LFT Etica;
 	font-style: book;
 	font-size: 16px;
 }
 
 h3 {
 	color: #ffffff;
-	font-family: QuatroSlab;
+	font-family: Quatro Slab;
 	font-size: 24px;
 	font-style: regular;
 }
 
 p {
 	color: #abadad;
-	font-family: LFTEtica Book;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 }
 
 a {
 	color: #01bfc1;
-	font-family: LFTEtica Book;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 	text-decoration: none;
