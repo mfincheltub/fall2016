@@ -62,5 +62,6 @@ div img {
 header img {
 	background-color: #f8695a
 	border: none;
+	display: inline-block;
 }
 
