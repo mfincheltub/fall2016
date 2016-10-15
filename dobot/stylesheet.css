@@ -1,7 +1,7 @@
 body {
 	background-color: #1a2325;
 	padding: 80px;
-	font-family: LFTEtica;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 	color: #abadad;
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
 	color: #555a5b;
-	font-family: LFTEtica;
+	font-family: LFT Etica;
 	font-style: book;
 	font-size: 16px;
 }
@@ -28,14 +28,14 @@ h3 {
 
 p {
 	color: #abadad;
-	font-family: LFTEtica;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 }
 
 a {
 	color: #01bfc1;
-	font-family: LFTEtica;
+	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
 	text-decoration: none;
@@ -44,7 +44,7 @@ a {
 button {
 	border-radius: 0;
 	text-align: center;
-	font-family: LFTEtica;
+	font-family: LFT Etica;
 	font-style: semibold;
 	color: #ffffff;
 	background-color: #01bfc1;
