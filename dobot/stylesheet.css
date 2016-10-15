@@ -42,12 +42,14 @@ a {
 }
 
 button {
-	border-radius: 0;
-	text-align: center;
+	color: #ffffff;
 	font-family: LFT Etica;
 	font-style: semibold;
-	color: #ffffff;
+	font-size: 14 px
+	border: none;
+	text-align: center;
 	background-color: #01bfc1;
+	padding: 15px 32px 
 }
 
 div img {
