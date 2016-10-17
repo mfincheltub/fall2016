@@ -11,7 +11,7 @@ body {
 	color: #abadad;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1100px;
+    max-width: : 1100px;
 }
 
 h1 {
@@ -60,12 +60,16 @@ button {
 	padding: 15px 32px 
 }
 
-.dobotlogo {
+div img {
+	float: right;
 	padding: 10px;
+	display: block;
+}
+
+.dobotlogo {
 	background-color: #f8695a
 	height: 80px;
 	width: 80px;
 }
-
 
 
