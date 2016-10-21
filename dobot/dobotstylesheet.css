@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 
@@ -54,11 +54,10 @@ table {
 
 
 
-header {
-	border-top: 2px solid #f8695a;
-}
+
 
 body {
+	border-top: 2px solid #f8695a;
 	background-color: #1a2325;
 	font-family: LFT Etica;
 	font-style: regular;
@@ -90,13 +89,6 @@ p {
 	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
-	width: 500px;
-	padding-top: 5px;
-	display: block;
-	-webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 }
 
 a {
@@ -127,11 +119,9 @@ button {
 }
 
 .productphoto {
-	float: right;
-	padding-top: 100px;
-	margin-top: 45px;
-	margin-right: 30px;
-	margin-left: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 
 .dobotlogo {
