@@ -55,20 +55,19 @@ border-spacing: 0;
 
 
 
-
 body {
-	border-top: 2px solid #f8695a;
 	background-color: #1a2325;
-	font-family: LFT Etica;
-	font-style: regular;
-	font-size: 16px;
-	color: #abadad;
+    max-width: 1100px;
+    max-height: 2500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1 {
 	color: #ffffff;
 	font-family: QuatroSlab;
 	font-size: 36px;
+	line-height: 42px;
 }
 
 h2 {
@@ -76,12 +75,9 @@ h2 {
 	font-family: LFT Etica;
 	font-style: book;
 	font-size: 16px;
-}
-
-h3 {
-	color: #ffffff;
-	font-family: QuatroSlab;
-	font-size: 24px;
+	line-height: 18px;
+	padding-top: 8pt;
+	padding-bottom: 24px;
 }
 
 p {
@@ -89,49 +85,80 @@ p {
 	font-family: LFT Etica;
 	font-style: regular;
 	font-size: 16px;
-}
-
-a {
-	color: #01bfc1;
-	font-family: LFT Etica;
-	font-style: regular;
-	font-size: 16px;
-	text-decoration: none;
+	line-height: 24px;
+	padding-bottom: 12px;
 }
 
 button {
 	border: none;
+	background-color: #01bfc1;
+	padding: 15px 32px; 
+	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-style: SemiBold;
 	font-family: LFT Etica;
-	font-size: 14 px
+	font-size: 14 px;
+	font-weight: 600;
+	margin-left: 9px;
+}
+
+.bordertop {
+	border-top: 3px solid #f8695a;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.dobotlogo {
+	display: inline-block;
+	background-color: #f8695a;
+	height: 80px;
+	width: 80px;
+	padding: 20px;
 	text-align: center;
-	background-color: #01bfc1;
-	padding: 15px 32px; 
+	box-sizing: border-box;
+}
+
+.checkout {
+	color: #01bfc1;
+	font-family: LFT Etica;
+	font-style: regular;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	line-height: 24px;
+}
+
+.buy {
+	color: #ffffff;
+	font-family: QuatroSlab;
+	font-size: 24px;
+	padding-top: 30px;
+	padding-right: 22px;
 }
 
 .product {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1100px;
+    display: inline-block;
+    margin-top: 108px;
     position: relative;
 }
 
 .productphoto {
 	float: right;
-	right: 0px;
-	top: 0px;
+	clear: both;
+	padding-left: 60px;
 }
 
-.dobotlogo {
-	background-color: #f8695a;
-	height: 80px;
-	width: 80px;
-	padding-top: 20px;
-	box-sizing: border-box;
-	text-align: center;
-	position: relative;
+.dotted {
+	border: .20px dotted #6d7171;
+	margin-right: 640px;
+	margin-top: 20px;
 }
 
-
+.borderbottom {
+	border: 1px solid #6d7171;
+	margin-top: 107px;
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
