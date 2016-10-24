@@ -59,8 +59,7 @@ body {
 	background-color: #1a2325;
     max-width: 1100px;
     max-height: 2500px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 h1 {
@@ -117,7 +116,10 @@ button {
 	height: 80px;
 	width: 80px;
 	text-align: center;
-	padding: 20px;
+	padding-top: 22.5px;
+	padding-bottom: 22.5px;
+	padding-left: 14px;
+	padding-right: 14px;
 }
 
 .checkout {
@@ -151,7 +153,7 @@ button {
 }
 
 .dotted {
-	border: .20px dotted #6d7171;
+	border: 1px dotted #6d7171;
 	margin-right: 640px;
 	margin-top: 20px;
 }
