@@ -171,6 +171,7 @@ button {
     max-width: 300px;
   }
   .productphoto {
-    width: calc(100%-300px);
+    width: calc(100%);
+    padding-bottom: 30px;
   }
 }
