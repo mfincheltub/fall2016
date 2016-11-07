@@ -168,9 +168,9 @@ button {
 
 @media (max-width: 900px) {
   .product {
-    display: none;
+    max-width: 300px;
   }
   .productphoto {
-    float: none;
+    width: calc(100%-300px);
   }
 }
