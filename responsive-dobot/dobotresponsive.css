@@ -177,5 +177,9 @@ button {
     padding-left: 20px;
   }
   .dotted {
-    margin-right: 0px; 
+    margin-right: 0px;
+  }
+  .dobotlogo {
+  margin-left: 20px;
+ }
 }
