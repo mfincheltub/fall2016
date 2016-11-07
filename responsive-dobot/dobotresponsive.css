@@ -169,9 +169,13 @@ button {
 @media (max-width: 900px) {
   .product {
     max-width: 300px;
+    padding-left: 20px;
   }
   .productphoto {
     width: calc(100%);
     padding-bottom: 30px;
+    padding-left: 20px;
   }
+  .dotted {
+    margin-right: 0px; 
 }
