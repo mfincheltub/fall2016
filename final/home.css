@@ -51,30 +51,95 @@ border-spacing: 0;
 
 
 
+
+
+
+
+
+
 h1 {
- font-family: Gotham HTF;
- font-style: Medium;
- font-size: 70px;
+    font-family: Gotham HTF;
+    font-style: Medium;
+    font-size: 90px;
 }
 
 h2 {
- font-family: Gotham HTF;
- font-style: Medium;
- font-size: 25px;
+    font-family: Gotham HTF;
+    font-style: Medium;
+    font-size: 30px;
 }
 
 p {
- font-family: Gotham HTF;
- font-style: light;
- font-size: 12px;
+    font-family: Gotham HTF;
+    font-style: light;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .intro {
 	background-color: white;
-	margin: auto;
+	min-height: 18em;
+	padding: 18em;
+}
+
+.mflogo {
+	height: 153.6px;
+	width: 153.6px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	vertical-align: middle;
 }
 
 .about {
 	background-color: #E2E2E1;
+	min-height: 18em;
+	display: inline-block;
+    margin-top: 108px;
+    position: relative;
+    padding-bottom: 160px;
 }
 
+.aboutphoto {
+    margin-left: 460px;
+    display: inline-block;
+}
+
+
+.hi {
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.name {
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-bottom: 60px;
+	margin-top: -400px;
+	max-width: 370px;
+}
+
+.aboutme {
+	padding-left: 800px;
+	padding-right: 170px;
+	padding-top: 160px;
+	clear: both;
+	display: inline;
+	float: right;
+}
+
+.work {
+	background-color: white;
+	min-height: 18em;
+	display: inline-block;
+    margin-top: 160px;
+    margin-bottom: 108px;
+    position: relative;
+}
+
+.bdw {
+	padding-left: 170px;
+}
