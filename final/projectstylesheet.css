@@ -55,19 +55,26 @@ border-spacing: 0;
 
 
 
-
-
-
 h1 {
     font-family: Lato;
     font-style: bold;
     font-size: 90px;
+    margin-left: 573px; 
+    margin-top: -380px;
+    display: block;
 }
 
 h2 {
     font-family: Lato;
     font-style: bold;
     font-size: 34px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
 }
 
 p {
@@ -85,99 +92,76 @@ a {
     line-height: 17px;
 }
 
-.intro {
-	background-color: white;
-	min-height: 18em;
-	padding: 18em;
-}
-
-.mflogo {
-	height: 153.6px;
-	width: 153.6px;
-	box-sizing: border-box;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	vertical-align: middle;
-}
-
-.about {
-	background-color: #E2E2E1;
-	min-height: 18em;
-	display: inline-block;
-    margin-top: 108px;
-    position: relative;
-    padding-bottom: 160px;
-}
-
-.aboutphoto {
-    margin-left: 460px;
-    display: inline-block;
-}
-
-
-.hi {
-	padding-left: 170px;
-	padding-right: 170px;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.name {
-	padding-left: 170px;
-	padding-right: 170px;
-	padding-bottom: 60px;
-	margin-top: -400px;
-	max-width: 370px;
-}
-
-.aboutme {
-	padding-left: 800px;
-	padding-right: 170px;
+.hero {
+	width: 50%;
+	height: auto;
 	padding-top: 120px;
-	clear: both;
-	display: inline;
-	float: right;
-}
-
-.work {
-	background-color: white;
-	min-height: 18em;
-	display: inline-block;
-    margin-top: 160px;
-    margin-bottom: 108px;
-    position: relative;
-}
-
-.bdw {
-	padding-left: 170px;
 	display: inline-block;
 }
 
-.recipecards {
-	padding-left: 12px;
+.img1 {
+	width: 25%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
 	position: relative;
 }
 
-.vive {
-	padding-left: 170px;
-	display: inline-block;
-}
-
-.contact {
-	font-family: Lato;
-    font-style: light;
-    text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-    font-size: 12px;
-    line-height: 15px;
+.img2 {
+	width: 30%;
+	height: auto;
+	padding-top: 120px;
 	display: block;
-	padding-bottom: 40px;
+	position: relative;
+}
+
+.img3 {
+	width: 15%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
+}
+
+.img4 {
+	width: 30%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
+}
+
+.img5 {
+	width: 25%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
 }
 
 
-.contact a {
-	padding-left: 10px;
-	padding-right: 10px;
+.img6 {
+	width: 30%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
+}
+
+
+.img7 {
+	width: 30%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
+}
+
+
+.img8 {
+	width: 40%;
+	height: auto;
+	padding-top: 120px;
+	display: block;
+	position: relative;
 }
