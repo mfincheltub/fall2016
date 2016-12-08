@@ -110,8 +110,22 @@ a {
 	transform: rotate(90deg);
 	position: fixed;
 	z-index: 1;
-	right: -40px;
+	right: -50px;
 	top: 110px;
+	color: black;
+	transition-duration: .6s;
+}
+
+.navbar a {
+	color: #323232;
+	padding-right: 10px;
+}
+
+.navbar a:hover {
+	color: #E2E2E1;
+	font-style: medium;
+	cursor: pointer;
+	opacity: 100;
 }
 
 
@@ -236,10 +250,17 @@ a {
 
 .titleproject {
     position: absolute;
-    opacity: 10;
-    transition-duration: .5s;
+    opacity: 0;
+    color: grey;
+    transition-duration: .6s;
     top: 10px;
     left: 10px;
+}
+
+.titleproject:hover {
+    color: white;
+    opacity: 100;
+    cursor: pointer;
 }
 
 .titlelink {
