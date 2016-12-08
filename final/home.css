@@ -70,6 +70,12 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    font-family: Lato;
+    font-style: bold;
+    font-size: 18px;
+}
+
 p {
     font-family: Lato;
     font-style: thin;
@@ -100,7 +106,13 @@ a {
 	vertical-align: middle;
 }
 
-
+.navbar {
+	transform: rotate(90deg);
+	position: fixed;
+	z-index: 1;
+	right: -40px;
+	top: 110px;
+}
 
 
 .about-wrap {
@@ -223,9 +235,15 @@ a {
 }
 
 .titleproject {
-
+    position: absolute;
+    opacity: 10;
+    transition-duration: .5s;
+    top: 10px;
+    left: 10px;
 }
 
 .titlelink {
-
+    position: relative;
+    display: inline-block;
+    float: left;
 }
