@@ -67,27 +67,26 @@ h1 {
 h2 {
     font-family: Lato;
     font-style: bold;
-    font-size: 34px;
+    font-size: 25px;
 }
 
 p {
     font-family: Lato;
     font-style: thin;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
 }
 
 a {
 	text-decoration: none;
 	font-family: Lato;
     font-style: thin;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
 }
 
 .intro {
 	background-color: white;
-	min-height: 18em;
 	padding: 18em;
 }
 
@@ -101,44 +100,59 @@ a {
 	vertical-align: middle;
 }
 
-.about {
+
+
+
+.about-wrap {
 	background-color: #E2E2E1;
-	min-height: 18em;
-	display: inline-block;
-    margin-top: 108px;
-    position: relative;
-    padding-bottom: 160px;
+}
+@media (max-width: 699px) {
+    .about {
+    	padding: 40px;
+    }
+    .hi {
+    	padding-bottom: 30px;
+    }
+    .name {
+    	padding-bottom: 30px; 
+    }
+    .aboutme {
+    	padding-bottom: 30px;
+    }
+}
+@media (min-width: 700px) {
+	.about {
+		width: 90%;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		padding-bottom: 80px;
+	}
+	.hi {
+		padding-top: 60px;
+	}
+	.name {
+		padding-top: 60px;
+		max-width: 270px;
+		position: relative;
+	}
+	.aboutphoto {
+		width: 42%;
+		margin-top: -90px;
+		margin-left: 160px;
+	}
+	.aboutme {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		max-width: 400px;
+		padding-bottom: 80px;
+		padding-left: 470px;
+	}
+
 }
 
-.aboutphoto {
-    margin-left: 460px;
-    display: inline-block;
-}
-
-
-.hi {
-	padding-left: 170px;
-	padding-right: 170px;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.name {
-	padding-left: 170px;
-	padding-right: 170px;
-	padding-bottom: 60px;
-	margin-top: -400px;
-	max-width: 370px;
-}
-
-.aboutme {
-	padding-left: 800px;
-	padding-right: 170px;
-	padding-top: 120px;
-	clear: both;
-	display: inline;
-	float: right;
-}
 
 .work {
 	background-color: white;
@@ -149,20 +163,46 @@ a {
     position: relative;
 }
 
-.bdw {
-	padding-left: 170px;
-	display: inline-block;
+@media (max-width: 699px) {
+	.work img {
+		width: 100%;
+	}
+}
+@media (min-width: 700px) {
+	.work {
+		max-width: 300px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.work img {
+		float: left;
+	}
+	.vive {
+		width: 100%;
+		margin-bottom: 7px;
+	}
+	.bdw {
+		width: 55%;
+	}
+	.recipecards {
+		width: 45%;
+		right: -37%
+	}
+	.diaj {
+		position: absolute;
+		width: 40%;
+		left: -42%;
+		top: 100px;
+	}
+	.survivors {
+		position: absolute;
+		width: 50%;
+		right: -53%;
+		top: 24px;
+	}
 }
 
-.recipecards {
-	padding-left: 12px;
-	position: relative;
-}
 
-.vive {
-	padding-left: 170px;
-	display: inline-block;
-}
 
 .contact {
 	font-family: Lato;
