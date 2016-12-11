@@ -208,30 +208,21 @@ a {
 		transform: translateX(-50%);
 	}
 	.work img {
-		float: left;
-	}
-	.vive {
-		width: 100%;
-		margin-bottom: 7px;
+		padding: 20px;
+		float: right;
 	}
 	.bdw {
-		width: 55%;
+		width: 95%;
 	}
 	.recipecards {
-		width: 45%;
+		width: 95%;
 		right: -37%
 	}
 	.diaj {
-		position: absolute;
-		width: 40%;
-		left: -42%;
-		top: 100px;
+		width: 95%;
 	}
 	.survivors {
-		position: absolute;
-		width: 50%;
-		right: -53%;
-		top: 24px;
+		width: 95%;
 	}
 }
 
@@ -268,6 +259,7 @@ a {
     color: white;
     opacity: 100;
     cursor: pointer;
+    top: 15%;
 }
 
 .titlelink {
