@@ -249,9 +249,9 @@ a {
 .titleproject {
     position: absolute;
     opacity: 0;
-    color: grey;
-    transition-duration: .6s;
-    top: 10px;
+    color: #323232;
+    transition-duration: .5s;
+    top: 30px;
     left: 10px;
 }
 
@@ -259,7 +259,6 @@ a {
     color: white;
     opacity: 100;
     cursor: pointer;
-    top: 15%;
 }
 
 .titlelink {
