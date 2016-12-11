@@ -113,26 +113,28 @@ a {
 	right: -50px;
 	top: 110px;
 	color: #323232;
-	font-size: 16px;
+	font-size: 14px;
 	transition-duration: .6s;
 }
 
 .navbar p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .navbar a {
 	color: #323232;
-	padding-right: 10px;
-	font-size: 16px;
+	margin-right: 10px;
+	padding-top: 2px;
+	font-size: 14px;
 }
 
 .navbar a:hover {
-	color: #E2E2E1;
-	font-style: medium;
+	color: #323232;
 	cursor: pointer;
 	opacity: 100;
-	font-size: 16px;
+	font-size: 14px;
+	border-top: 2px solid #323232;
+
 }
 
 
@@ -210,19 +212,7 @@ a {
 	.work img {
 		padding: 20px;
 		float: right;
-	}
-	.bdw {
-		width: 95%;
-	}
-	.recipecards {
-		width: 95%;
-		right: -37%
-	}
-	.diaj {
-		width: 95%;
-	}
-	.survivors {
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -251,8 +241,7 @@ a {
     opacity: 0;
     color: #323232;
     transition-duration: .5s;
-    top: 30px;
-    left: 10px;
+    top: 35px;
 }
 
 .titleproject:hover {
